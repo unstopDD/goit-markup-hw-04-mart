@@ -209,9 +209,9 @@ header .link {
   margin-bottom: 43px;
 }
 
-.descr-blog {
+.text {
   color: #555252;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -220,6 +220,8 @@ header .link {
 }
 
 .button {
+  text-decoration: none;
+  color: #ffffff;
   width: 159px;
   height: 51px;
   background-color: #4ec6ab;
@@ -230,11 +232,6 @@ header .link {
   margin-top: 17px;
   border-radius: 3px;
   border: 0px;
-}
-
-.blog .button-link {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .blog-item {
